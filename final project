@@ -1,0 +1,27 @@
+"""
+name1 = input("Enter a name for name1: ")
+name2 = input("Enter a name for name2: ")
+name3 = input("Enter a name for name3: ")
+name4 = input("Enter a name for name4: ")
+
+names = name1 , name2 , name3 , name4
+# Capitalize the first letter of each name and create a new list
+capital = [name.strip().capitalize() for name in names ]
+
+# Print each modified name in a list format
+print("Modified names list:")
+for name in capital:
+    print(name)
+"""
+
+
+def reverse_integer(n):
+    reversed_n = int(str(n)[::-1])  # Convert the integer to string, reverse it, and convert back to integer
+    return reversed_n
+
+# Get input from the user
+num = int(input("Enter an integer: "))
+
+# Reverse the integer and print the result
+reversed_num = reverse_integer(num)
+print("Reversed integer:", reversed_num)
