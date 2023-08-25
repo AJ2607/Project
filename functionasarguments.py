@@ -10,3 +10,5 @@ def map_simple(crazy,l):
 
 # Call map_simple function to apply loop to each item in the list
 map_simple(loop,l)
+
+#Learn about functions
